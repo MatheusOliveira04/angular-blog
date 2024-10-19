@@ -1,0 +1,23 @@
+.container_big-card {
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container_big-card > div {
+    margin-bottom: 5px
+}
+
+.img_big-card {
+    width: 100%;
+}
+
+.legend_big-card {
+    font-size: 10px;
+    color: gray;
+}
+
+.description_big-card {
+    color: gray;
+}
