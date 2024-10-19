@@ -1,0 +1,27 @@
+.container_home {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.big-card {
+    width: 50%;
+    min-height: 55vh;
+}
+
+.small-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+app-small-card {
+    height: 31%;
+    margin-bottom: 10px;
+}
