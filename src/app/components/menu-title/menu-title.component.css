@@ -1,0 +1,22 @@
+.container_menu-title {
+    margin: 2% 3%;
+    height: 15%;
+}
+
+.content_menu-title {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_menu-title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+hr {
+    border: 1px solid rgb(172, 172, 172);
+}
+
