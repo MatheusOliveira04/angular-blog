@@ -1,15 +1,13 @@
-
 <div class="container_home">
-    <app-menu-bar></app-menu-bar>
     <app-menu-title></app-menu-title>
     <main>
         <div class="big-card">
-            <app-big-card></app-big-card>
+            <app-big-card [id]="'1'" [photoCover]="bigCard.photo" [dateCard]="bigCard.date" [cardTitle]="bigCard.title"
+                [cardDescription]="bigCard.description"></app-big-card>
         </div>
         <div class="small-cards">
-            <app-small-card></app-small-card>
-            <app-small-card></app-small-card>
-            <app-small-card></app-small-card>
-        </div>   
+            <app-small-card *ngFor="let data of dataArraySmallCard" [id]="data.id" [photoCover]="data.photo"
+                [cardTitle]="data.title" [dateCard]="data.date"></app-small-card>
+        </div>
     </main>
 </div>

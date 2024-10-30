@@ -1,0 +1,26 @@
+.container_menu-bar {
+    min-height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list_menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+li a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none; 
+}
